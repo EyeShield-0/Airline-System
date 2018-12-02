@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Airline_System.exe" version="1.0.0.2" publicKeyToken="6721a80c136d3b4b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="iconQrown.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Airline_System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Airline_System.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Airline_System.exe" size="56312">
+      <assemblyIdentity name="Airline_System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2hTkJo5nP8FJocZBC49EpvIcyRKGIa91MnaCFkFwadM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Airline_System.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="favicon.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RhzAs6Fn1w7cHCjI28AR14F3rCCFPs/3jO+KYwstdq4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconQrown.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7ObdOUhwB5/KhphYFTCOSL9AJp64+vzpmbAYecITc6M=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-5OSM3LO\Eyeshield" issuerKeyHash="c0c88bf1b2d3debd82931c9d53bb710aee51228f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kF4OAVAPcuwwH4Y42dafBnoMDHfY7twBlSDqR+Bo8Gg=</DigestValue></Reference></SignedInfo><SignatureValue>cKAC7Ms2PQLOI/LYJUFwF5EUTgiuq+M0TaRuQfo8mVWGz5QijUipNNMYVMkv9uwhrGnZ2jf8j/n+aGISYK9f1Ib5wNMklZdQV05m3rBT6mL8+MS6VxNqXBYWB6O+IkvzcSslhP3XhWP44QcTSavdLUTPzQBtORsWASHyrF/83FI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6KSKiXFq+YW3tG2LgUr69D/DhJy0DL56KT2WETalE7Y0WDXGPVWLtmnnz7J5TxsQEE8UYI426wquE69jzDXvt/j6tXSlmN1g+0oafV7h9AOOwRg+db8NiDNFJDuSBj57JpiAKCGZ3APhxGlhZyKoSGPGaAeRAeAApV40wxZ1uzk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="68f068e047ea209501dceed8770c0c7a069fd6d938861f30ec720f50010e5e90" Description="" Url=""><as:assemblyIdentity name="Airline_System.exe" version="1.0.0.2" publicKeyToken="6721a80c136d3b4b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-5OSM3LO\Eyeshield</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>c+1hI0sQrcuzEzR1S7ljTc4hn4WFclj3Z8Fgmb3x5TU=</DigestValue></Reference></SignedInfo><SignatureValue>hzkulAnUX4CA7ZYSkH1t2oP931nTHgFi2KMWwQqqWg/XY8ZvUMA4BNdGs3qUo8gkVjb/ViUB5HLMlzSj5eDNdiPimhYtqxJFyzpROkkqRNLthA/xmNlwtJrbeWSEOUiXWGMU88gCoWc1hlXawurZHea8uJWtQOPz4URANAR43dE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6KSKiXFq+YW3tG2LgUr69D/DhJy0DL56KT2WETalE7Y0WDXGPVWLtmnnz7J5TxsQEE8UYI426wquE69jzDXvt/j6tXSlmN1g+0oafV7h9AOOwRg+db8NiDNFJDuSBj57JpiAKCGZ3APhxGlhZyKoSGPGaAeRAeAApV40wxZ1uzk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQM3nHMZmsVbFMSfC3gkK3aTANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIARABFAFMASwBUAE8AUAAtADUATwBTAE0AMwBMAE8AXABFAHkAZQBzAGgAaQBlAGwAZDAeFw0xODExMjIyMjUzNTRaFw0xOTExMjMwNDUzNTRaMD0xOzA5BgNVBAMeMgBEAEUAUwBLAFQATwBQAC0ANQBPAFMATQAzAEwATwBcAEUAeQBlAHMAaABpAGUAbABkMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDopIqJcWr5hbe0bYuBSvr0P8OEnLQMvnopPZYRNqUTtjRYNcY9VYu2aefPsnlPGxAQTxRgjjbrCq4Tr2PMNe+3+Pq1dKWY3WD7Shp9XuH0A47BGD51vw2IM0UkO5IGPnsmmIAoIZncA+HEaWFnIqhIY8ZoB5EB4AClXjTDFnW7OQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACyZs/QrtSIm9tCtSFuAJmOGUL2eEF1QrDjbgpKA1D/pgfx4SCajJ/coM7NN711DUK1M/fMVdsufpKbFmG13C9j74D70YFfJP705LKAtXjl9xP0jTRE6MF7Rh97HGBIL8h76mO1nAXTchltpZixOiMOMdS1AoMcuc/WmlAiwax/O</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
