@@ -1,5 +1,5 @@
 # Airline-System
-A school C# assignment that was made along with my colleague.
+A school C# assignment that was made along with my colleagues.
 
 
 Made with---
